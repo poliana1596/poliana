@@ -1,0 +1,97 @@
+
+        
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+
+        body, html{
+          height: 100%;
+          width: 100%;
+        }
+
+
+
+         bodyy: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-image: url("4.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        }
+
+        .centralizar
+        {
+          display: flex;
+         justify-content: center;
+        }
+
+        .margem
+        {
+          border: solid;
+          width:500px;
+          border-radius:10px;
+        }
+         
+        
+        
+          
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="margem">  
+        <div class="centralizar"> 
+        <h1>LOGIN</h1>
+        <p>Usuário</p>
+        <form > 
+        <input type="text"  id="Usuário_input">
+        </form>
+    
+        <p>Senha</p>
+        <form> 
+        <input type="password" id="Senha_input">
+        </form>
+        <br></br>
+        <div>
+        <button onclick="Teste()"><h1>Entrar</h1></button>
+        </div>
+        <br></br>
+        </div>
+    </div>
+
+    
+
+  </body>
+
+<script type="text/javascript">
+  function Teste() {
+    var a = document.getElementById("Usuário_input").value;
+    var b = document.getElementById("Senha_input").value;
+
+    if(a == "polilinda" & b == "poligata")
+    {
+      alert("sua linda!");
+    }
+    else 
+    {
+      alert("sua feia");
+    }
+  }
+  
+
+    
+  
+
+</script>
+
+</html>
